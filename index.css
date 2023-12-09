@@ -1,0 +1,27 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.nav{
+    height: 80px;
+}
+#navbarSupportedContent ul li a{
+    color: black;
+    font-size: 20px;
+}
+#navbarSupportedContent ul li a:hover{
+    color:white;
+    background-color: rgb(56, 146, 214);
+}
+
+
+.product{
+    padding: 40px 40px;
+    height: 500px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+}
+.productlist{
+    display: flex;
+}
