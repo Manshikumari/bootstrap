@@ -1,0 +1,53 @@
+{
+    "grocery_products": [
+      {
+        "product_name": "Organic Apples",
+        "category": "Fruits",
+        "price": 2.99,
+        "quantity": 5,
+        "brand": "Nature's Best",
+        "expiry_date": "2023-12-31"
+      },
+      {
+        "product_name": "Whole Grain Bread",
+        "category": "Bakery",
+        "price": 3.49,
+        "quantity": 2,
+        "brand": "Healthy Harvest",
+        "expiry_date": "2023-12-15"
+      },
+      {
+        "product_name": "Fresh Salmon Fillet",
+        "category": "Seafood",
+        "price": 10.99,
+        "quantity": 1,
+        "brand": "Ocean Catch",
+        "expiry_date": "2023-12-20"
+      },
+      {
+        "product_name": "Organic Spinach",
+        "category": "Vegetables",
+        "price": 1.99,
+        "quantity": 3,
+        "brand": "Green Earth",
+        "expiry_date": "2023-12-25"
+      },
+      {
+        "product_name": "Greek Yogurt",
+        "category": "Dairy",
+        "price": 4.29,
+        "quantity": 4,
+        "brand": "Olympus Farms",
+        "expiry_date": "2023-12-28"
+      },
+      {
+        "product_name": "Ground Coffee",
+        "category": "Beverages",
+        "price": 6.99,
+        "quantity": 2,
+        "brand": "Morning Brew",
+        "expiry_date": "2024-01-15"
+      }
+    ]
+  }
+  
