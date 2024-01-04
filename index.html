@@ -3,34 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <title>Document</title>
+    <link rel="icon" href="image1/favicon.png">
+    <title>Go-For-Visit</title>
+    
 </head>
-<body>
-  <div class="container-fluid bg-primary " style="height: 100px; padding: 30px 30px; text-align: center;">
-   <p class="text-light ">olestiae, necessitatibusque!</p>
-  </div>   
+  <body>
 <!--navbar-->
+<div class="logo">
+  <img src="image1/logo2.png" height="150px">
+</div>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary nav">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">GoForIt</a>
+<marquee
+direction="left-to-right"
+width="100%"
+height="100"
+behavior="alternate"
+<marquee behavior="alternate"><img src="image1/logo4.png" height="100px"</marquee>
+</marquee>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  <div class="container-fluid ">
+  
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="About.html">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">National</a></li>
+            <li><a class="dropdown-item" href="#">International</a></li>
+      
+          </ul>
         </li>
+      
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -39,31 +57,24 @@
     </div>
   </div>
 </nav>
-
-
 <!--slider-->
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="image1/pic1.jpeg" class="d-block w-100" alt="oops">
+      <img src="image1/pic.jpeg" height="800" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="image1/pic2.jpeg" class="d-block w-100" alt="oops">
+      <img src="image1/pic2.jpeg" height="800" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="image1/pic3.jpeg" class="d-block w-100" alt="oops">
+      <img src="image1/pic3.jpeg" height="800" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
@@ -71,72 +82,45 @@
 
 <!--Productlist-->
 <div class="product">
-<div class="cate">
-  <div class="card" style="width: 18rem;">
-    <div class="card-header">
-      Featured
-    </div>
-    <ul class="list-group list-group-flush">
-    <button><li class="list-group-item" onclick="apple()">Organic Apples</li></button>
-      <li class="list-group-item">Whole Grain Bread</li>
-      <li class="list-group-item">Fresh Salmon Fillet</li>
-    </ul>
-  </div>
-
-</div>
-<div class="productlist">
-
-  <div class="card" style="width: 18rem;">
-    <img src="image1/pic1.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Organic Spinach</h5>
-      <p class="card-text">product_name: Spinach 
-        category:Vegetables <br>price: 1.99 <br>
-        quantity: 3 </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img src="image1/pic2.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Fresh Salmon Fillet</h5>
-      <p class="card-text">product_name: Fresh Salmon 
-        category:Seafood <br>price: 10.99 <br>
-        quantity: 1</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img src="image1/pic3.jpeg" class="card-img-top" alt="...">
-    <div class="card-body" id="card1">
-      <h5 class="card-title">Apples</h5>
-      <p class="card-text"> product_name: Organic Apples
-        category: Fruits <br>price: 2.99 <br>
-        quantity: 5
-        </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-
-</div>
+  
 <div class="card" style="width: 18rem;">
   <img src="image1/pic3.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title" > Whole Grain </h5>
-    <p class="card-text">product_name: >Whole Grain Bread
-      category: Bakery <br>price: 2.99 <br>
-      quantity: 5</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
-
-
-
-<div class="listtab">
-<button class="tablink" data-tab="tab1">tab1</button>
-<button class="tablink" data-tab="tab1">tab2</button>
-<button class="tablink" data-tab="tab1">tab3</button>
+<div class="card" style="width: 18rem;">
+  <img src="image1/pic2.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
 </div>
+<div class="card" style="width: 18rem;">
+  <img src="image1/pic.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="image1/pic.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="image1/pic.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+
+
+<div class="footer">
+  <p>@copyright</p>
+</div>
+ 
+
 
 
     <script src="index.js"></script>
