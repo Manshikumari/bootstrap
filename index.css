@@ -22,12 +22,29 @@
 }
 
 .slide{
-    height: 800px;
+    height: 400px;
+}
+.list{
+    display: inline-table;
+    position: relative;
+    background-color: aquamarine;
+}
+.right{
+    padding: 30px 30px;
+    display: inline;
+    height: 200px;
+    background-color: black;
+}
+
+.right p{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
 }
 .product{
     display: flex;
     height: 300px;
-    width: 100%;
+    width: 40%;
 } 
 .footer{
     padding: 40px 40px;
